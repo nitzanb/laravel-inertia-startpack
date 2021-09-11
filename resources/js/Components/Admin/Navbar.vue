@@ -61,8 +61,8 @@
     methods: {
         toggleSidebar() {           
             //
-            let element = document.getElementById("main-nav");
-            element.classList.toggle('hidden');
+            let hamburgerToggler = document.getElementById("main-nav");
+            hamburgerToggler.classList.toggle('hidden');
         },
         
     }
