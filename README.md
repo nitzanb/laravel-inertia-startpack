@@ -5,15 +5,16 @@ Laravel-inertia-startpack is a base project based on Laravel with Jetstream and 
 ## Setup and install
 1. Branch this project
 2. Git clone your project
-3. composer install
+3. composer update
 4. npm install
 5. cp .env.example .env
 6. php artisan key:generate
-7. Create DB for your app
-8. Edin .env file with relevant data
-9. php artisan migrate
-10. php artisan db:seed
-11. npm run dev
+7. php artisan storage:link 
+8. Create DB for your app
+9. Edit .env file with relevant data
+10. php artisan migrate
+11. php artisan db:seed
+12. npm run dev
 
 ## License
 
